@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: rgba(0, 128, 255, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+  
+li{
+    background-color:srgb(15, 90, 48);
+  display: inline;
+  position: relative;
+   margin: 100px;   
+}
+
+h1 {
+font-size: 48px ;
+text-align: center;
+}
+
+.PadreFormulario{
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color:whitesmoke;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+}
+.Formulario {
+    margin: 10px;
+
+
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+}
+.boton{
+border-radius: 4px;
+margin: 20px;
+font-size: 20px;
+}
+.nav{
+    background-color:rgb(15, 90, 48);
+    padding: 0px;
+    border-style:double ;
+}
+.titulo{
+    font-family: 'Praise', cursive;
+    font-size: 160px;
+    color: rgb(1, 1, 97);
+    margin: 100px;
+}
+#matriculasabiertas{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 35px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: rgb(1, 1, 97);
+    background-color: rgb(15, 90, 48);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(1, 1, 97);
+    
+}
+.tyt{
+    display: flex;
+    justify-content: center;
+}
+.tyt1{
+    display: flex;
+    justify-content: center;
+}
+.login{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 35px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: rgb(1, 1, 97);
+    background-color: rgb(15, 90, 48);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(1, 1, 97);
+    margin: 20px;
+}
+.acuerdo{
+    display: flex;
+    justify-content: center;
+
+}
+.cajaacuerdo{
+    background-color: rgb(15, 90, 48) ;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin: 40px;
+    border-radius: 15px;
+    
+}
+.textacuerdo{
+    font-size: 20px;
+    padding: 60px;
+}
+.botonacuerdo{
+    display: flex;
+    justify-content: center;
+}
+.boton2{
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.botonhijo1{
+    display: flex;
+    justify-content: center;
+    
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    }
